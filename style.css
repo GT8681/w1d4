@@ -1,100 +1,164 @@
-*{
-margin:0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #eaeded;
 }
-.header{
+
+.header {
     background-color: #222f3e;
     padding: 10px 20px;
 }
-.header-image{
+
+.header-image {
     width: 120px;
 }
-.nav-bar{
+
+.nav-bar {
     background-color: #354758;
     padding: 10px 15px;
 
 }
-.nav-bar a{
+
+.nav-bar a {
     color: white;
     text-decoration: none;
     padding-right: 10px;
-    
+
 }
-.main-container{
+
+.main-container {
     padding: 25px;
 }
-.orange-bar{
+
+.orange-bar {
     background-color: orange;
     color: white;
     padding: 10px;
     text-align: center;
-     font-size: 10px;
-     font-weight: 100%;
-     margin-bottom: 15px;
+    font-size: 10px;
+    font-weight: 100%;
+    margin-bottom: 15px;
 }
-.image-holiday{
+
+.image-holiday {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
-.holiday-container{
+
+.holiday-container {
     position: relative;
 }
-.holiday-text{
+
+.holiday-text {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: white;
 
 }
-.conteiner2{
+
+.holiday-text p {
+    text-align: center;
+    padding: 25px;
+}
+
+.conteiner2 {
     width: 100%;
     background-color: white;
-   
-    
+
+
 }
-.image-cont{
-  margin-right: 10px;
-  text-align: center;
-  width: 310px;
-  height: 325px;
-  padding: 5px;
-  border-radius: 30px;
+
+.image-cont {
+    margin-right: 10px;
+    text-align: center;
+    width: 310px;
+    height: 325px;
+    padding: 5px;
+    border-radius: 30px;
 }
-.conteiner2{
+
+.conteiner2 {
     margin-top: 30px;
 }
-.conteiner2 div{
+
+.conteiner2 div {
     display: inline;
 }
-.conteiner2 p{
-    
-padding: 20px 20px;
+
+.conteiner2 p {
+
+    padding: 20px 20px;
 }
-.conteiner2 a{
+
+.conteiner2 a {
     text-decoration: none;
     color: blue;
     margin-left: 15px;
 }
-.second-image{
+
+.second-image {
     width: 100%;
     margin-top: 25px;
 }
-.conteiner3 h6{
+
+.conteiner3 h6 {
     text-align: center;
     font-size: 15px;
     font-weight: 100;
 }
-.conteiner3 a{
+
+.conteiner3 a {
     text-decoration: none;
     color: blue;
     font-weight: 600;
     font-size: 10px;
     margin-left: 15px;
+}
+
+.terzo-image {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.footer h6 {
+    text-align: center;
+    background-color: #354758;
+    padding: 15px;
+    color: white;
+}
+
+.footer2 {
+    background-color: #222f3e;
+    padding: 80px;
+}
+
+.image-footer {        
+    width: 200px;
+    text-align: center;
+}
+.footer2{
+    position: relative;
+
+}
+
+.footer a{
+    color: white;
+}
+.footer3{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+
 }
